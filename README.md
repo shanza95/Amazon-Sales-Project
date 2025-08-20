@@ -17,5 +17,5 @@ This project involved preparing and analyzing an Amazon Sales dataset to extract
 - Uncovered sales trends, regional performance, and product-level insights
 - Applied conditional formatting to highlight key metrics, anomalies, and patterns in the data.
 
-# Next Steps:
+### Next Steps:
 I plan to continue this project in Tableau to enhance insights into regional performance, shipping services, sales trends, products performance, and to build interactive dashboards for more dynamic and accessible business insights.
