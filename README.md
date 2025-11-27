@@ -1,32 +1,29 @@
 # Sales-Project
 ## Project Overview:
 This project involved preparing and analyzing an Amazon Sales dataset to extract meaningful insights by first addressing data quality issues.
+| Category                            | Details                                                                                                                                                                                                                                                            |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Programming Language**            | Python                                                                                                                                                                                                                                                             |
+| **Core Libraries Used**             | - **Pandas** (data cleaning, manipulation) <br> - **NumPy** (numerical operations) <br> - **Matplotlib / Seaborn** (visualizations) <br> - **Plotly** (interactive charts, if used) <br> - **Jupyter Notebook** (development environment)                          |
+| **Data Preprocessing Steps**        | - Handling missing values <br> - Converting data types (e.g., dates) <br> - Removing duplicates <br> - Filtering and grouping data <br> - Feature selection                                                                                                        |
+| **Exploratory Data Analysis (EDA)** | - Descriptive statistics (`describe()`) <br> - Value counts for categorical columns <br> - Distribution analysis (histograms, bar charts) <br> - Grouped summaries (e.g., size vs cancellation, fulfilment analysis) <br> - City/state-level order status analysis |
+| **Analytical Methods**              | - Univariate analysis <br> - Bivariate analysis (category vs. status, size vs. fulfilment) <br> - Comparative analysis (Amazon vs Merchant) <br> - Trend identification and pattern recognition                                                                    |
+| **Business Insight Methods**        | - Identifying high/low-performing product categories <br> - Fulfilment performance analysis <br> - Cancellation rate evaluation <br> - Location-based logistics insights                                                                                           |
+| **Visualization Techniques**        | - Bar charts <br> - Count plots <br> - Distribution plots <br> - Pivot-style summaries <br> - Grouped comparison charts                                                                                                                                            |
+| **Overall Workflow**                | Data Loading → Cleaning → EDA → Segmentation → Insights Generation → Reporting                                                                                                                                                                                     |
 
-### Key Tasks:
-## Data Cleaning:
-- Identified and handled missing values with appropriate methodology
-- Performed string manipulation to fix inconsistencies in text fields
-- Handled duplicate entries
-- Standardize few feature names, merged multiple name variations into single, consistent values.
-
-## Data Preparation:
-- Sorted the dataset to improve readability and analysis
-- Ensured all categorical and numerical fields were structured appropriately
-
-## Exploratory Data Analysis (EDA):
-- Uncovered sales trends, regional performance, and product-level insights
-- Applied conditional formatting to highlight key metrics, anomalies, and patterns in the data.
+## Dataset Description:
 
 The dataset contains 128,976 orders with a mix of categorical features such as order status, fulfillment, category, size, and location fields. Below is a structured breakdown of key observations.
 
-**Product Category Distribution**
+**Product Category Distribution**:
 The dataset is heavily apparel-driven, dominated by *T-shirts* and *Shirts*, jointly contributing ~78% of all orders. Accessories and footwear (Perfume, Wallet, Socks, Shoes, Watch) make up a very small share. *Watch* category has negligible data (3 orders).
 
-**Sales Channel Distribution**
+**Sales Channel Distribution**:
 The business is almost entirely dependent on Amazon as a sales channel (99.9%) and within India. Non-amazon is insignificant in volume.
 
-**Shipping Service Level**
-Majority of orders use *Expedited shipping*, indicating customer preference for faster delivery, company prioritizing quicker logistics options. Cancellations/ returns are extremely dependent on apparel sizing and fulfillment type. City and state diversity is high, suggesting nationwide coverage.
+**Shipping Service Level**:
+Majority of orders use *Expedited shipping*, indicating customer preference for faster delivery or company prioritizing quicker logistics options. Cancellations/ returns are extremely dependent on apparel sizing and fulfillment type. City and state diversity is high, suggesting nationwide coverage.
 
 ## Data Visualization:
 
