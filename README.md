@@ -85,5 +85,34 @@ Cancellations are proportionate to order volumes and highest in Mumbai.
 - Cancellation trends between Amazon and Merchant are very similar in pattern — the only major difference is scale.
 - While the demand is low, Amazon still shoes more cancellation than Merchant even in sizes 4XL (35 vs 13), 5XL (38 vs 17), 6XL (50 vs 22). This further reinforces that Amazon handles more overall volume, not that Merchat has fewer cancellation issues.
 
+### Recommendations
+Based on the comprehensive data cleaning, exploratory analysis, and operational insights derived from the Amazon Sales dataset, the following recommendations aim to improve business performance, reduce operational inefficiencies, and strengthen decision-making capabilities.
+
+1. Inventory optimization for high volume apparel categories
+2. Reduce cancellation rates through size and transparency improvements
+3. Strengthen merchant fulfillment monitoring
+4. Logistics optimization for high-volume cities
+5. Categpry-level pricing and promotional strategy
+6. Strengthen data quality and governance processes
+
+### Final Summary
+
+To drive sustainable growth, the business should prioritize apparel optimization, logistics strengthening, cancellation reduction, and data governance improvements. Leveraging Tableau for dynamic dashboards and predictive analytics will significantly enhance decision-making accuracy, reduce costs, and improve customer satisfaction.
+
 ### Next Steps:
-I plan to continue this project in Tableau to enhance insights into regional performance, shipping services, sales trends, products performance, and to build interactive dashboards for more dynamic and accessible business insights.
+- **Build Tableau Dashboards for Real-Time Monitoring**
+#####  Tableau Dashboard Overview
+
+| Dashboard Name              | Description                                                                                               | Key Insights Provided                                                                                              |
+|-----------------------------|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| **Sales Performance**       | Analyzes overall sales behavior across categories, sizes, cities, and time periods.                        | - Category- & size-level sales trends<br>- Monthly/seasonal performance<br>- City-wise order distribution           |
+| **Cancellation & Returns**  | Monitors order failures, cancellation causes, and return behavior across fulfillment and regions.          | - Cancel rates by size & category<br>- Amazon vs Merchant cancellation trends<br>- Geographic cancellation insights |
+| **Logistics & Shipment**    | Evaluates shipping efficiency and fulfillment performance for both Amazon and Merchant orders.             | - Shipping service level analysis<br>- Order lifecycle tracking<br>- Exception (return/reject) patterns             |
+| **Inventory Forecasting**   | Predicts demand and supports proactive replenishment decisions based on historical trends and ML models.   | - SKU-level demand forecasts<br>- Reorder alerts<br>- Stockout risk indicators<br>- Seasonal demand patterns        |
+
+
+- **Develop Predictive Models for Proactive Decision-Making**
+  
+    - Demand Forecasting Model → Predict top-selling SKUs
+    - Cancellation Prediction Model → Identify high-risk orders before fulfillment
+    - Customer Segmentation Model → Identify high-value purchase behavior
